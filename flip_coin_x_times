@@ -1,0 +1,28 @@
+# This code models flipping a single coin X number of times
+# and counts the number of heads
+#
+# Feel free to edit and change this code - don't worry if you break it.
+# just come back to the origional URL and it will still be here.
+# Edit the line  "number_of_flips = 150" to chenge the number of simulated coin tosses.
+# for example set number_of_flips = 10 to simulate tossing a couin 10 times
+
+import random
+
+number_of_flips = 150
+
+number_of_heads = 0
+
+def flipCoin():
+    return random.choice(["Heads","Tails"])
+
+for i in range(0,number_of_flips):
+    flip = flipCoin()
+    if flip == "Heads":
+        number_of_heads += 1
+   
+    
+print(".....")
+print("{} Heads in  {} flips: thats a ratio of {}".format(number_of_heads,number_of_flips, number_of_heads/number_of_flips))
+
+# Can you change the code to make it count Tails?
+# Can you change the code so it counts the number of times you toss 5 Heads in a row ?
