@@ -16,4 +16,4 @@ for i in range(0,number_of_flips):
    
     
 print(".....")
-print("{} Double 'Heads' in  {} flips: {}".format(number_of_two_heads,number_of_flips, number_of_two_heads/number_of_flips))
+print("Double 'Heads' was thrown {} times in  {} flips: P(double heads) = {}".format(number_of_two_heads,number_of_flips, number_of_two_heads/number_of_flips))
