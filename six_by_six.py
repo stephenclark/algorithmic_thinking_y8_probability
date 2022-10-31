@@ -1,5 +1,4 @@
-# set up the confusion matrix for  6x6 dice
-# calculate what the numbers add to
+# Simulates all the possible addition of two six sided dice rolls 
 R = C = 6
 # Initialize matrix 
 matrix = []
