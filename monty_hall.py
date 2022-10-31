@@ -2,6 +2,8 @@ from numpy import random
 import numpy as np
 import time
 
+number_of_simulations=10000  # <-- change this number to change the number of simulations  
+
 def monty_hall_simulation (number_of_simulations):
     choice_unchanged=[]
     choice_changed=[]
@@ -35,12 +37,12 @@ def monty_hall_simulation (number_of_simulations):
     print(f'\n\
     {number_of_simulations:,} games were played \n\
     Chances of winning the car based on the following strategies:\n\
-    Remaining with initial selection: {"{:.1%}".format(sum(choice_unchanged)/number_of_simulations)}\n\
-    Switching doors: {"{:.1%}".format(sum(choice_changed)number_of_simulationsN)}')
+    Remaining with initial selection: {"{:.1%}".format(sum(choice_unchanged)/float(number_of_simulations))}\n\
+    Switching doors: {"{:.1%}".format(sum(choice_changed)/float(number_of_simulations))}')
             
 ###############################            
 ###### Run the Simulation######
 ###############################
 start_time = time.time()
-monty_hall_simulation(N=1000000)         
+monty_hall_simulation(number_of_simulations)       
 print(f'\nSimulation Completed in: {round(time.time()-start_time,2)} Seconds')
