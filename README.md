@@ -15,3 +15,5 @@ All code is currently hoasted
 - [monty_hall_simulation] https://www.online-python.com/cpJnlGfUru
 - [six-by-six] https://www.online-python.com/IfPmxOtA9V
 - [Sampling a population with replacement] https://www.online-python.com/muoLfkGFPV
+- [squars greater than 90] https://www.online-python.com/GpmkUt5Biu
+
